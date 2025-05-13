@@ -1,0 +1,135 @@
+FILTER:
+  NAME: " "
+  MATERIAL: "STAINED_GLASS_PANE"
+  DURABILITY: 15
+QUEUES-MENUS:
+  FILTER: FILL # THERE IS FILL AND BRODER
+  SIZE: 27
+  UNRANKED:
+    TITLE: "&7Join Unranked Queue"
+    KIT-NAME: "&a<kit>"
+    LORE:
+      - "<description>"
+      - " "
+      - " &f&7* &fIn Fights: &b<playing>"
+      - " &f&7* &fQueued: &b<queueing>"
+      - ""
+      - "&bTop ELO"
+      - " &c1. &f<lb_1_name_> &7[<lb_1_elo_>]"
+      - " &32. &f<lb_2_name_> &7[<lb_2_elo_>]"
+      - " &63. &f<lb_3_name_> &7[<lb_3_elo_>]"
+      - " "
+      - " &aClick to here play."
+  RANKED:
+    TITLE: "&7Join Ranked Queue"
+    KIT-NAME: "&a<kit>"
+    LORE:
+      - "<description>"
+      - " "
+      - " &f&7* &fIn Fights: &b<playing>"
+      - " &f&7* &fQueued: &b<queueing>"
+      - ""
+      - "&bTop ELO"
+      - " &c1. &f<lb_1_name_> &7[<lb_1_elo_>]"
+      - " &32. &f<lb_2_name_> &7[<lb_2_elo_>]"
+      - " &63. &f<lb_3_name_> &7[<lb_3_elo_>]"
+      - " "
+      - " &aClick to here play."
+PARTY:
+  FILTER: FILL # THERE IS FILL AND BRODER
+  EVENTS:
+    TITLE: "&7Select an Event"
+    SIZE: 27
+    FILTER: FILL
+    EVENT-COLOR: "&b<event>"
+    SELECT-KIT:
+      TITLE: "&7Select a Kit"
+      SIZE: 27
+      KIT-NAME: "&b<kit>"
+  OTHER-PARTIES:
+    TITLE: "&7Other Parties"
+    SIZE: 27
+KIT-EDITOR:
+  TITLE: "&7Select a Kit"
+  FILTER: FILL # THERE IS FILL AND BRODER
+  KIT-NAME: "&b<kit>"
+  SIZE: 27
+  LORE:
+    - ""
+    - "&aClick to edit Kit."
+  MANAGEMENT:
+    TITLE: "&bViewing <kit> kits"
+    KIT-NAME: "&b<kit>"
+    BUTTONS:
+      CREATE-BUTTON: "&aCreate Loadout"
+      RENAME-BUTTON: "&bRename Loadout"
+      LOAD-BUTTON: "&aLoad/Edit"
+      DELETE-BUTTON: "&bDelete"
+      BACK-BUTTON: "&bBack"
+  EDITOR:
+    TITLE: "&bEditing <kit>"
+    BUTTONS:
+      SAVE-BUTTON: "&aSave"
+      CANCEL-BUTTON: "&bCancel"
+      CLEAR-BUTTON: "&bClear Inventory"
+      LOAD-DEFAULT-BUTTON: "&eLoad Default Kit"
+DUEL:
+  SIZE: 27
+  FILTER: FILL # THERE IS FILL AND BRODER
+  KIT-SELECTOR:
+    TITLE: "&7Select a Kit"
+    KIT-NAME: "&b<kit>"
+  ARENA-SELECTOR:
+    TITLE: "&7Select a Arena"
+    ARENA-NAME: "&b<arena>"
+    SIZE: 36
+SETTINGS:
+  TITLE: "&7Settings"
+  FILTER: FILL # THERE IS FILL AND BRODER
+  SETTING-NAME: "&b<settings>"
+  SIZE: 36
+EVENTS:
+  TITLE: "&7Select an event"
+  FILTER: FILL # THERE IS FILL AND BRODER
+  SIZE: 27
+  EVENT-NAME: "&a<event>"
+STATS:
+  TITLE: "&7Your Stats"
+  SIZE: 27
+  KIT-NAME: "&a<kit>"
+  FILTER: FILL # THERE IS FILL AND BRODER
+  LORE:
+    - "&7&m--------------"
+    - "    &bGlobal Stats"
+    - "       &7* &fWins: &b<wins>"
+    - "    &7* &fLosses: &b<loses>"
+    - "      &7* &fElo: &b<elo>"
+    - "&7&m--------------"
+  GLOBAL-STATS:
+    GLOBAL-STATS-NAME: "&aGlobal Stats"
+    LORE:
+      - "&7&m--------------"
+      - "     &bUser Stats"
+      - "       &7* &fWins: &b<wins>"
+      - "    &7* &fLosses: &b<loses>"
+      - "      &7* &fElo: &b<elo>"
+      - "&7&m--------------"
+PROFILE-SETTINGS:
+  TITLE: "&7Profile Menu"
+  SIZE: 27
+  FILTER: FILL # THERE IS FILL AND BRODER
+LEADERBOARD:
+  TITLE: "&7Leaderboards"
+  SIZE: 27
+  FILTER: FILL # THERE IS FILL AND BRODER
+  KIT-NAME: "&a<kit> &7| &fTop 10"
+  PLAYER-ELO: "&bYour Elo: &f<player_elo>"
+  PLAYER-KILL: "&bYour Kills: &f<player_kill>"
+  TOGGLE_VIEW: "&bToggle view"
+  POSITION: "&b<position>. &f<player> &7- &b <value>"
+  GLOBAL-STATS:
+    GLOBAL-STATS-NAME: "&aGlobal Stats"
+    LORE:
+      - " &7* &fWins: &b<wins>"
+      - " &7* &fLoses: &b<loses>"
+      - " &7* &fElo: &b<elo>"
